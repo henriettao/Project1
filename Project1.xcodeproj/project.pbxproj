@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		41987DDE1A7B12F800139EFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41987DDD1A7B12F800139EFF /* main.cpp */; };
+		41987DE91A7B161F00139EFF /* double_sentinel_list_driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41987DE81A7B161F00139EFF /* double_sentinel_list_driver.cpp */; };
+		41987DEB1A7B166000139EFF /* double_sentinel_list_tester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41987DEA1A7B166000139EFF /* double_sentinel_list_tester.cpp */; };
+		41987DF21A7BE0C200139EFF /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41987DF11A7BE0C100139EFF /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,16 @@
 /* Begin PBXFileReference section */
 		41987DDA1A7B12F800139EFF /* Project1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project1; sourceTree = BUILT_PRODUCTS_DIR; };
 		41987DDD1A7B12F800139EFF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41987DE41A7B14B500139EFF /* double_node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = double_node.h; sourceTree = "<group>"; };
+		41987DE51A7B153400139EFF /* Double_node_tester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Double_node_tester.h; sourceTree = "<group>"; };
+		41987DE61A7B157700139EFF /* Double_sentinel_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Double_sentinel_list.h; sourceTree = "<group>"; };
+		41987DE81A7B161F00139EFF /* double_sentinel_list_driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = double_sentinel_list_driver.cpp; sourceTree = "<group>"; };
+		41987DEA1A7B166000139EFF /* double_sentinel_list_tester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = double_sentinel_list_tester.cpp; sourceTree = "<group>"; };
+		41987DEC1A7B172700139EFF /* double_sentinel_list_tester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = double_sentinel_list_tester.h; sourceTree = "<group>"; };
+		41987DED1A7B176500139EFF /* Exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		41987DEE1A7B179000139EFF /* Tester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tester.h; sourceTree = "<group>"; };
+		41987DF01A7B18A700139EFF /* ece250.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ece250.h; sourceTree = "<group>"; };
+		41987DF11A7BE0C100139EFF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41987DF21A7BE0C200139EFF /* AppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +55,16 @@
 		41987DD11A7B12F700139EFF = {
 			isa = PBXGroup;
 			children = (
+				41987DF11A7BE0C100139EFF /* AppKit.framework */,
+				41987DF01A7B18A700139EFF /* ece250.h */,
+				41987DEE1A7B179000139EFF /* Tester.h */,
+				41987DED1A7B176500139EFF /* Exception.h */,
+				41987DEC1A7B172700139EFF /* double_sentinel_list_tester.h */,
+				41987DEA1A7B166000139EFF /* double_sentinel_list_tester.cpp */,
+				41987DE81A7B161F00139EFF /* double_sentinel_list_driver.cpp */,
+				41987DE61A7B157700139EFF /* Double_sentinel_list.h */,
+				41987DE51A7B153400139EFF /* Double_node_tester.h */,
+				41987DE41A7B14B500139EFF /* double_node.h */,
 				41987DDC1A7B12F800139EFF /* Project1 */,
 				41987DDB1A7B12F800139EFF /* Products */,
 			);
@@ -118,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41987DE91A7B161F00139EFF /* double_sentinel_list_driver.cpp in Sources */,
+				41987DEB1A7B166000139EFF /* double_sentinel_list_tester.cpp in Sources */,
 				41987DDE1A7B12F800139EFF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
